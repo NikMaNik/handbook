@@ -46,13 +46,20 @@ theme:
 nav:
   - Главная: index.md
   - Blog:
-      - Python: blog/python.md
+      - blog/index.md
+      - Python:
+        - Введение: blog/python/python.md
       - SQL:
         - Введение: blog/sql/sql.md
         - DDL: blog/sql/ddl.md
         - DML: blog/sql/dml.md
         - DCL: blog/sql/dcl.md
         - TCL: blog/sql/tcl.md
+      - Docker:
+        - Введение: blog/docker/docker.md
+
+  - Project:
+      - Superspreader: project/superspreader/supersreader.md
 
 markdown_extensions:
   - def_list
